@@ -184,11 +184,13 @@ OTHER DB :-
 ● BOT {}
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
     LOG_TEXT_P = """#NewUser
 ■ ID - <code>{}</code>
 ■ Nᴀᴍᴇ - {}
+★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ■ Bᴏᴛ {}"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
