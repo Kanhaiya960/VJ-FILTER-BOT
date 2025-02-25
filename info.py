@@ -26,7 +26,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002237007652'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002321570567'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002455627116 -1002347729816 -1002457424722 -1002439854017 -1002464786163').split()]  # For Multiple Id Use One Space Between Each.
@@ -41,11 +41,11 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002090374492') # give your force s
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request Any File Name With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL', '-1002410949273')
+reqst_channel = environ.get('REQST_CHANNEL', '-1002321570567')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Channel Is For Index Request 
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
+INDEX_REQ_CHANNEL = environ.get('INDEX_REQ_CHANNEL', '-1002419514463')
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002152101562')
