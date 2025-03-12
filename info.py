@@ -141,7 +141,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False)
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'techvjlink.site')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5d84c45bd97704c052ca8355670f0d024083f3fb')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Movies_4_Download/20')
