@@ -80,8 +80,8 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/ghl.jpg') # payment code picture url.
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs </i>
 
-₹𝟸𝟶  ➪ 𝟷 Wᴇᴇᴋ's
-₹𝟼𝟶  ➪ 𝟷 Mᴏɴᴛʜ's
+₹𝟹𝟶  ➪ 𝟷 Wᴇᴇᴋ's
+₹𝟼𝟶  ➪ 𝟷 Mᴏɴᴛʜ's
 ₹𝟷𝟷𝟶 ➪ 𝟸 Mᴏɴᴛʜ's
 ₹𝟷𝟻𝟶 ➪ 𝟹 Mᴏɴᴛʜ's
 ₹𝟸𝟻𝟶 ➪ 𝟼 Mᴏɴᴛʜ's
@@ -107,7 +107,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ �
 ➛ ᴄʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ
-➪ Oᴡɴᴇʀ/Aᴅᴍɪɴ: <a href='https://t.me/rj_09_kanhaiya'>Kᴀɴʜᴀɪʏᴀ</a></b>''')
+➪ Oᴡɴᴇʀ/Aᴅᴍɪɴ: <a href='https://t.me/TonyStark_Botz'>Kᴀɴʜᴀɪʏᴀ</a></b>''')
 
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
@@ -145,7 +145,6 @@ VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'techvjlink.site')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5d84c45bd97704c052ca8355670f0d024083f3fb')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Movies_4_Download/20')
-
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 # if verify second shortner is True then fill below url and api
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
@@ -157,7 +156,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '5d84c45bd977
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')
 SHORTLINK_API = environ.get('SHORTLINK_API', '5d84c45bd97704c052ca8355670f0d024083f3fb')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_4_Download/5') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_4_Download/15') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
@@ -179,7 +178,7 @@ QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
