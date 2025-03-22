@@ -1312,7 +1312,7 @@ async def check_expired_premium(client):
                 except:
                     pass   
                 await client.send_message(
-                    PREMIUM_LOGS, 
+                    LOG_CHANNEL, 
                     text=f"<b>#PREMIUM_EXPIRED\n\nUsᴇʀ : {user.mention}\nUsᴇʀ Iᴅ : <code>{user_id}</code></b>"
                 )
             except Exception as e:
