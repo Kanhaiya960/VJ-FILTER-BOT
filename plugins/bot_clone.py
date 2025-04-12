@@ -171,8 +171,4 @@ async def broadcast_callback(client, callback):
             f"📊 Report for bot ID {bot['bot_id']}:\n"
             f"✅ Success: {success}\n"
             f"❌ Failed: {failed}"
-        )
-
-# ======================== RUN BOT ========================
-print("🎉 Bot Clone System Started!")
-app.run()
+            )
