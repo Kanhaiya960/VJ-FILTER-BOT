@@ -15,10 +15,8 @@ API_ID = int(environ.get('API_ID', '21187284'))
 API_HASH = environ.get('API_HASH', 'dd55d48a8c624dae7d34dcffe07034b8')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 PICS = (environ.get('PICS', 'https://envs.sh/ghl.jpg')).split()
-
 
 # Admins & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6552970915').split()] # For Multiple Id Use One Space Between Each.
@@ -69,7 +67,6 @@ MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or 
 O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
 S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When First Db Is Going To Be Full.
-
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -153,7 +150,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')
 SHORTLINK_API = environ.get('SHORTLINK_API', '5d84c45bd97704c052ca8355670f0d024083f3fb')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_4_Download/614') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
