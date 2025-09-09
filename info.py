@@ -77,12 +77,12 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/ghl.jpg') # payment code picture url.
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs </i>
 
-₹𝟹𝟶  ➪ 𝟷 Wᴇᴇᴋ's
-₹𝟼𝟶  ➪ 𝟷 Mᴏɴᴛʜ's
-₹𝟷𝟷𝟶 ➪ 𝟸 Mᴏɴᴛʜ's
-₹𝟷𝟻𝟶 ➪ 𝟹 Mᴏɴᴛʜ's
-₹𝟸𝟻𝟶 ➪ 𝟼 Mᴏɴᴛʜ's
-₹xxx ➪ ᴏᴛʜᴇʀ ᴘʟᴀɴ
+₹ 𝟸𝟶  ➪ 𝟷 Wᴇᴇᴋ's
+₹ 𝟻𝟻  ➪ 𝟷 Mᴏɴᴛʜ's
+₹ 𝟷𝟶𝟶 ➪ 𝟸 Mᴏɴᴛʜ's
+₹ 𝟷𝟹𝟶 ➪ 𝟹 Mᴏɴᴛʜ's
+₹ 𝟸𝟺𝟶 ➪ 𝟼 Mᴏɴᴛʜ's
+₹ xxx ➪ Cᴜsᴛᴏᴍ ᴘʟᴀɴ
 
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 Pʀɪᴄᴇ Aᴄᴄᴏʀᴅɪɴɢ Tᴏ Dᴀʏ's.
@@ -215,5 +215,6 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
