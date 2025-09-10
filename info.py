@@ -75,7 +75,7 @@ PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) #
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://envs.sh/ghl.jpg') # payment code picture url.
-PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs </i>
+PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs </i> 💵
 
 ₹ 𝟸𝟶  ➪ 𝟷 Wᴇᴇᴋ's
 ₹ 𝟻𝟻  ➪ 𝟷 Mᴏɴᴛʜ's
@@ -219,6 +219,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
