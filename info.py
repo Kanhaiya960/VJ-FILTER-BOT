@@ -101,6 +101,8 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '''<b>💵 <i> ᴘʀᴇᴍɪᴜᴍ �
 ○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs
 ==========================
 
+✨ ᴜᴘɪ ɪᴅ - <code>kanu-network@axl</code> [ᴄʟɪᴄᴋ ғᴏʀ ᴄᴏᴘʏ]
+
 ➛ ᴄʜᴇᴄᴋ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ
@@ -215,6 +217,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
