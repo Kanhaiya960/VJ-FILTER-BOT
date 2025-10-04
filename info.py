@@ -142,11 +142,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', '')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
+VERIFY = bool(environ.get('VERIFY', True))
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'vplink.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '8585479c122feb4c124dbad84240f316e5b6de21')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Movies_4_Download/633')
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
+
 # if verify second shortner is True then fill below url and api
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
@@ -154,7 +155,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vplink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '8585479c122feb4c124dbad84240f316e5b6de21')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movies_4_Download/633') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
@@ -178,6 +179,12 @@ EPISODES = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10"
 QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]
 
+# Rename Info : If True Then Bot Rename File Else Not
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+
+# Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
+
 # Online Stream and Download
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
@@ -190,14 +197,6 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 URL = environ.get("URL", "")
-
-
-# Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
-
-
-# Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
-AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
 
 
 # Start Command Reactions
@@ -219,4 +218,5 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
