@@ -5,7 +5,7 @@ from pyrogram.types import Message
 
 IMGBB_API_KEY = "d4cc3d793cb68b2c6cdc2197588e895c"
 
-@Client.on_message(filters.command(["img", "cup", "telegraph"], prefixes="/") & filters.reply)
+@Client.on_message(filters.command(["img", "telegraph"], prefixes="/") & filters.reply)
 async def c_upload(client, message: Message):
     reply = message.reply_to_message
     if not reply.media:
